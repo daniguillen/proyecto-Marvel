@@ -1,0 +1,24 @@
+.contacto {
+
+    list-style: none;
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    justify-content: center; /* Alinea horizontalmente */
+    background-image: none;
+
+
+}
+.contacto li{
+    margin: 2em;
+    background-image: none;
+}
+li{
+    list-style: none;
+}
+
+

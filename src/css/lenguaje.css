@@ -1,0 +1,47 @@
+span{
+    color: white;
+    margin:0.3em
+}
+.es{
+    color:#00a1ff;
+
+
+}
+
+.check{
+    position:relative;
+    width: 50px;
+    background-color: #495057;
+    
+
+
+}
+.check:before{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    background:white ;
+    background-color:none ;
+    border-radius: 25px;
+    top: -5px;
+}
+.check:after{
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    border-radius:25px;
+    transition: 0.25s;
+    border:2px solid #495057;
+    box-sizing: border-box;
+    top: -5px;
+}
+.check:checked:after{
+    left: 25px;
+    border:2px solid #00a1ff;
+}
+.check:checked:before{
+    background-color: #00a1ff;
+}

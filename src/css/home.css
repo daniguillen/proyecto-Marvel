@@ -1,0 +1,25 @@
+.contLogin{
+    
+    background-image: url("../imagenes/malverimagen.jpeg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+
+.btn{
+    background-image: radial-gradient(circle at 79.88% 114.09%, #d4fff9 0, #c0fff6 10%, #a9fff4 20%, #8efff3 30%, #6dfcf2 40%, #3cf2f2 50%, #00e8f3 60%, #00dff6 70%, #00d6f9 80%, #00cdfe 90%, #00c5ff 100%);
+
+}
+
+input{
+    border-radius: 0.4em;
+}
+input:hover{
+    box-shadow: 0px 3px 20px 0px rgb(130, 197, 238);
+}

@@ -1,0 +1,67 @@
+.card{
+    margin: 0.5em;
+}
+.card:hover{
+    box-shadow: 1px 4px 5px 1px rgba(64,60,67,.16);
+}
+
+.botonEntrar{
+    background-image: radial-gradient(circle at 79.88% 114.09%, #d4fff9 0, #c0fff6 10%, #a9fff4 20%, #8efff3 30%, #6dfcf2 40%, #3cf2f2 50%, #00e8f3 60%, #00dff6 70%, #00d6f9 80%, #00cdfe 90%, #00c5ff 100%);
+    border-radius: 0.4em;
+    padding: 0 0.5rem 0 0.5rem;
+    text-decoration: none;
+}
+.botonEntrar:hover{
+    box-shadow: 0px 3px 20px 0px rgb(130, 197, 238);
+}
+.card-body{
+height: 0;
+padding: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.alice-carousel img {
+    width: 15em;
+    min-height: 10em;
+    margin: 2em;
+
+  }
+  .alice-carousel li{
+    background-image: none;
+    overflow: hidden;
+    
+  }
+  .alice-carousel__dots{
+    padding: 0;
+    margin-top: 0 !important;
+  }
+
+  .alice-carousel__prev-btn{
+    display: none;
+  }
+  .alice-carousel__next-btn{
+    display: none;
+  }
+  .alice-carousel__prev-btn-wrapper{
+    display: none;
+  }
+  .alice-carousel__next-btn-wrapper{
+    display: none;
+  }
+  .alice-carousel__next-btn-item{
+    display: none;
+  }
+  .imagenesCarrouser{
+    width: 200px;
+    height: 300px;
+}
+
+  @media (max-width: 767px){
+
+    .imagenesCarrouser{
+        width: 90%;
+        height: auto;
+    }
+  }

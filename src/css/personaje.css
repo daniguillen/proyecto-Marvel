@@ -1,0 +1,51 @@
+.containerPersonaje{
+    width: 100%;
+    min-height:100% ;
+    display: flex;
+    justify-content: center;
+}
+.containerPersonaje .descripcionPersonaje{
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    box-sizing: border-box;
+}
+
+
+.containerPersonaje li{
+    list-style: none;
+    background-image: none;
+    display: flex;
+    justify-content: center;
+    margin: 0.5em;
+
+}
+.imagenDescrion{
+    margin: 0;
+    padding: 0;
+    width: 60%;
+    max-width: 20rem;
+    overflow: hidden;
+}
+.containerPersonaje img{
+    min-width: 20rem;
+    
+}
+.containerPersonaje ol{
+    width: 80%;
+    padding: 0;
+    display: flex;
+
+    align-items: center;
+    
+ 
+}
+.descripcionContenedorContenido{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.descripcionContenedorContenido small{
+    text-align: left;
+}
